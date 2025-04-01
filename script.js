@@ -43,7 +43,7 @@ document.querySelectorAll('.order-btn').forEach(btn => {
         const size = selectedSize.getAttribute('data-size');
         
         // Format the WhatsApp message
-        const whatsappNumber = "6281234567890"; // Ganti dengan nomor WhatsApp pemilik toko
+        const whatsappNumber = "6283870109804"; // Ganti dengan nomor WhatsApp pemilik toko
         const message = `Halo, saya ingin memesan:\n\n*Produk:* ${productName}\n*Harga:* Rp ${parseInt(productPrice).toLocaleString('id-ID')}\n*Ukuran:* ${size}\n\nApakah produk ini tersedia?`;
         
         // Encode the message for URL
